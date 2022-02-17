@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtViewRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rooms" />
+
+    <RadioButton
+        android:id="@+id/radioBachelor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bachelor" />
+    <RadioButton
+        android:id="@+id/radioBtnOneRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 Room" />
+    <RadioButton
+        android:id="@+id/radioBtnTwoRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Rooms" />
+
+    <TextView
+        android:id="@+id/txtViewBathroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bathrooms" />
+
+    <RadioButton
+        android:id="@+id/radioBtnOneBath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 Bathroom" />
+
+    <RadioButton
+        android:id="@+id/radioBtnTwoBath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 Bathrooms" />
+</LinearLayout>
